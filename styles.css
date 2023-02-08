@@ -1,0 +1,79 @@
+
+.imagee {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008CBA; */
+}
+
+.containerr:hover .overlayy {
+  opacity: 1;
+}
+
+.containerr {
+  position: relative;
+  padding: auto;
+
+  width: 100%;
+}
+.card-body {
+
+}
+
+
+
+#pricing {
+  padding-top: : 3%;
+  padding-bottom: 6%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+ .price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+   padding: 2%;
+}
+#header-section{
+  color: White;
+  padding-bottom: 1%;
+}
+.nav-item{
+  color:yellow;
+    padding-top: 2rem;
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 2.1rem;
+}
+
+.spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+.he-he{
+  padding-top: 4rem;
+}
+.spec-back{
+  background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
